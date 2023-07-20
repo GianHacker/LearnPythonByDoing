@@ -1,4 +1,3 @@
-'''
 # print() func to print anything on the console
 print("Hello, Welcome to the python learning hub")
 
@@ -25,8 +24,7 @@ print(type(weight)) # Variable weight holds float(decimal) value
 
 boolValue = bool(input("enter a boolean value: "))
 print(type(boolValue)) # Variable boolValue holds boolean type value
-'''
-'''
+
 # Exercise on strings
 name = 'Srikanth Vadapalli'
 print(name[:])
@@ -42,7 +40,7 @@ print(name.lower()) # To print the value in the variable name in lower case
 print(name.title()) # # To print the value in the variable name with capital letter in every word
 print(name.capitalize()) # To print the first word of the value in capital
 print(name.replace('ka','n')) # It will replace the substring with the user desired substring
-'''
+
 
 # Excercise on List - []: List is a data type which is a collection of heterogeneous data
 # List can be initiated in two ways - Applicable for Empty List 
@@ -51,5 +49,9 @@ secondList = list() # second way of initializing
 numList = [1,4,7,9,34,23,68,1256,4678]
 strList = ['name', 'age', 'occupation', 'nation']
 print(numList, strList)
+
+
+
+
 
 
