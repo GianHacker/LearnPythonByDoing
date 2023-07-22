@@ -2,8 +2,8 @@
 * basics.py file has all the basics of python covered such as python() function, data types & data structures e.t.c with detailed comments.
 ## Primitive Datatypes
 * number
-** int
-** float
+1. int
+2. float
 * string
 * bool
 ## Data Structures
