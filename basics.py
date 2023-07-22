@@ -40,6 +40,8 @@ print(name.lower()) # To print the value in the variable name in lower case
 print(name.title()) # # To print the value in the variable name with capital letter in every word
 print(name.capitalize()) # To print the first word of the value in capital
 print(name.replace('ka','n')) # It will replace the substring with the user desired substring
+print(name.split()) # It will be used to split the string into list
+print(name.strip()) # It will strip off the extra spaces which are present preceeding & succeeding 
 
 
 # Excercise on List - []: List is a data type which is a collection of heterogeneous data
@@ -49,6 +51,9 @@ secondList = list() # second way of initializing
 numList = [1,4,7,9,34,23,68,1256,4678]
 strList = ['name', 'age', 'occupation', 'nation']
 print(numList, strList)
+
+
+
 
 
 
