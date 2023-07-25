@@ -1,4 +1,4 @@
-'''
+
 # print() func to print anything on the console
 print("Hello, Welcome to the python learning hub")
 
@@ -54,7 +54,7 @@ numList = [1,4,7,9,34,23,68,1256,4678]
 strList = ['name', 'age', 'occupation', 'nation']
 print(numList, strList)
 
-'''
+
 
 # Sets in python 
 set1 = {'srikanth', 'sameer', 'pranuthi', 'sherly', 'vaddi'}
