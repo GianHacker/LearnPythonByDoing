@@ -1,3 +1,4 @@
+'''
 # print() func to print anything on the console
 print("Hello, Welcome to the python learning hub")
 
@@ -31,6 +32,7 @@ print(name[:])
 print(name[-9:])
 print(name[:17])
 print(name[-len(name)])
+print("My name is '{:>9}'".format(name))
 print(len(name)) # finds the length of the string
 # Can use find() or index() to get the index of the substring 
 print(name.find("S")) # find() will return -1 if the substring isn't found
@@ -51,6 +53,24 @@ secondList = list() # second way of initializing
 numList = [1,4,7,9,34,23,68,1256,4678]
 strList = ['name', 'age', 'occupation', 'nation']
 print(numList, strList)
+
+'''
+
+# Sets in python 
+set1 = {'srikanth', 'sameer', 'pranuthi', 'sherly', 'vaddi'}
+set2 = {'vaddi','surya','ajay','soma'}
+set3 = {'srikanth', 1} # Sets contain unordered non redundant heterogeneous data
+print(set1, set2, set3)
+set3.remove(1)
+set3.add(35)
+print(set3)
+print(set1.difference(set2))
+print(set1.symmetric_difference(set2))
+print(set1.intersection(set2))
+print(set1.union(set2))
+
+'''Sets in python '''
+
 
 
 

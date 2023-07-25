@@ -1,3 +1,5 @@
+""" top_100Lottery """
+# Program is an example and exercise on usage of sets in python
 from random import randint
 
 n = int(input("Enter tha maximum range of winners from the pool: "))
