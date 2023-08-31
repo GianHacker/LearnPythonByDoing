@@ -1,4 +1,4 @@
-'''
+
 # print() func to print anything on the console
 print("Hello, Welcome to the python learning hub")
 
@@ -25,7 +25,7 @@ print(type(weight)) # Variable weight holds float(decimal) value
 
 boolValue = bool(input("enter a boolean value: "))
 print(type(boolValue)) # Variable boolValue holds boolean type value
-'''
+
 
 # Exercise on strings
 name = 'Srikanth Vadapalli'
@@ -44,4 +44,22 @@ print(name.capitalize()) # To print the first word of the value in capital
 print(name.replace('ka','n')) # It will replace the substring with the user desired substring
 print(name.center()) 
 
+
+kaliyug = 432000
+
+print("Total human years in kaliyu: ",kaliyug)
+print("# of human years in kaliyug 1st padam: ", kaliyug*0.4)
+print("# of human years in kaliyug 2nd padam: ", kaliyug*0.3)
+print("# of human years in kaliyug 3rd padam: ", kaliyug*0.2)
+print("# of human years in kaliyug 4th padam: ", kaliyug*0.1)
+
+
+mahaYug = 4320000
+print("# of human years in Kritayugam: ",mahaYug*0.4)
+print("# of human years in Tretayugam: ",mahaYug*0.3)
+print("# of human years in Dwaparayugam: ", mahaYug*0.2)
+print("# of human years in Kaliyugam: ", mahaYug*0.1)
+
+print("# of human years in Manvantaram: ",mahaYug*71 )
+print("# of human years in Kalpa: ", 14*(mahaYug*71))
 
