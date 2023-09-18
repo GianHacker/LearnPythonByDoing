@@ -11,8 +11,6 @@ if __name__ == "__main__":
         grades.append(rd[key])
 
     m = min(grades)
-    print(m)
-    print(grades)
     grades.sort()
 
     for i in grades:
@@ -21,9 +19,7 @@ if __name__ == "__main__":
             break
         else:
             continue
-    print(m)
     ct = grades.count(m)
-    print(ct)
     names = []
     for key in rd:
         if m == rd[key]:
