@@ -54,11 +54,6 @@ def stringmethod(para, special1, special2, list1, strfind):
         print(len(word1)-1)
 
     
-        
-        
-    
-    
-
 if __name__ == '__main__':
     para = input()
 
